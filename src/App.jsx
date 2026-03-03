@@ -8,7 +8,8 @@ const panelColors = {
   skillsync: "#163b77",
   supetama: "#0f766e",
   activecommunity: "#6b2f89",
-  quickstrip: "#8a4f0a",
+  bluewave: "#8a4f0a",
+  quickstrip: "#7c3aed",
 };
 
 function CameraRig({ selectedProject }) {
@@ -149,6 +150,8 @@ function supportsWebGL() {
 export default function App() {
   const [selectedId, setSelectedId] = useState("supetama");
   const selected = projects.find((project) => project.id === selectedId) || projects[0];
+  const selectedProjectId = selected?.id;
+  const visibleProjects = projects.filter((project) => project.id !== selectedProjectId);
   const experiencePoints = profile?.experience?.points || [];
   const volunteeringPoints = profile?.volunteering?.points || [];
   const phoneHref = (profile?.phone || "").replace(/\s+/g, "");
@@ -199,7 +202,7 @@ export default function App() {
                 <a href="#projects" className="btn btn-primary">
                   {profile.cta.primary}
                 </a>
-                <a href="/Sami_Ibna_Zia_CV.docx" className="btn btn-secondary" download>
+                <a href="/Sami_Ibna_Zia_CV.pdf" className="btn btn-secondary" download>
                   {profile.cta.secondary}
                 </a>
                 <a href={profile.links.github} target="_blank" rel="noreferrer" className="btn btn-ghost">
@@ -235,7 +238,7 @@ export default function App() {
             </div>
 
             <div className="projects-grid">
-              {projects.map((project) => (
+              {visibleProjects.map((project) => (
                 <button
                   key={project.id}
                   type="button"
@@ -373,7 +376,7 @@ export default function App() {
               <a href={profile.links.github} target="_blank" rel="noreferrer">
                 GitHub
               </a>
-              <a href="/Sami_Ibna_Zia_CV.docx" download>
+              <a href="/Sami_Ibna_Zia_CV.pdf" download>
                 CV
               </a>
             </div>
