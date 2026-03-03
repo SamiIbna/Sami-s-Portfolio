@@ -1,0 +1,88 @@
+{
+  "name": "Sami Ibna Zia",
+  "location": "London, UK",
+  "headline": "Junior Software & IT Developer | Web, Systems & Cybersecurity",
+  "phone": "+44 07908278125",
+  "email": "sami.ibnaa@gmail.com",
+  "links": {
+    "github": "https://github.com/SamiIbna",
+    "linkedin": "https://linkedin.com/in/sami-zia-9b18b22b9/"
+  },
+  "intro": "I build web apps, support IT systems, and explore AR/VR and cybersecurity foundations using Python, JavaScript, PHP, SQL, Drupal, and Linux environments.",
+  "profileSummary": "Final-year BSc Information Technology student with hands-on experience in software development, web applications, and IT systems. Built projects using Python, JavaScript, PHP, SQL and Drupal, and gained foundation-level exposure to AR/VR, cybersecurity, and Linux/Kali lab environments.",
+  "cta": {
+    "primary": "Explore Projects",
+    "secondary": "Download CV"
+  },
+  "targetRoles": [
+    "Junior Software Developer",
+    "Junior Web Developer",
+    "Junior Full-Stack Developer",
+    "Entry-Level IT Role"
+  ],
+  "stack": ["Python", "Flask", "JavaScript", "PHP", "SQL", "Drupal 10", "Linux", "Kali Linux"],
+  "skills": {
+    "languages": ["Python", "Java", "JavaScript", "PHP", "SQL"],
+    "web": ["HTML5", "CSS3", "Responsive UI", "Bootstrap"],
+    "backend": ["Flask (Python)", "PHP (Server-side scripting)"],
+    "databases": ["Relational DB fundamentals", "Data handling", "Basic schema design"],
+    "cms": ["Drupal site building", "Content structures", "Roles and permissions"],
+    "tools": ["Git/GitHub", "Figma", "Microsoft Office", "Visual Studio", "IntelliJ"],
+    "systems": ["Windows", "Linux", "Kali Linux", "Troubleshooting", "Networking basics"],
+    "security": ["Cybersecurity fundamentals", "Kali Linux lab exposure", "Basic recon and scanning concepts", "Security awareness"],
+    "concepts": ["SDLC", "Requirements analysis", "Agile teamwork", "AR/VR foundations", "Cybersecurity foundations"]
+  },
+  "experience": {
+    "title": "Enrollment Officer - Clearing - London South Bank University",
+    "org": "",
+    "dates": "Aug 2024 - Sep 2024",
+    "points": [
+      "Supported prospective students with clearing and admissions queries in a fast-paced environment.",
+      "Managed student data and administrative tasks using Microsoft Office."
+    ]
+  },
+  "volunteering": {
+    "title": "CSI Ambassador",
+    "org": "London South Bank University",
+    "dates": "Nov 2023 - Present",
+    "points": [
+      "Represented the university at events, engaging prospective students and promoting Computing programmes.",
+      "Strengthened communication and presentation skills through outreach and support activities."
+    ]
+  },
+  "education": {
+    "degree": "BSc Information Technology",
+    "institution": "London South Bank University",
+    "dates": "Sep 2023 - Present",
+    "modules": [
+      "Requirements Analysis",
+      "Developing Applications",
+      "Big Data and Database Systems",
+      "System Administration and Maintenance",
+      "Web Technology",
+      "Systems and Cyber Security",
+      "ICT Project Management in Practice",
+      "Honours Computer Science Project"
+    ]
+  },
+  "training": [
+    "Data Science and AI Bootcamp (London South Bank University)",
+    "Python Bootcamp",
+    "LEGO Robotics Training"
+  ],
+  "languages": ["English (Fluent)", "Bengali (Native)"],
+  "additionalProjects": [
+    "Inventory-System (Python)",
+    "Learn-Basic-Math (HTML/CSS/JS)",
+    "Calculator (Python)"
+  ],
+  "availability": "Seeking a junior role in software development, web development, IT systems, or related technical roles in the UK.",
+  "techAreas": [
+    "Software Development",
+    "Web Development",
+    "IT Systems & Support",
+    "Cybersecurity (Foundations)",
+    "AR/VR (Foundations)"
+  ],
+  "sponsorshipNote": "Open to Skilled Worker visa sponsorship opportunities in the UK."
+}

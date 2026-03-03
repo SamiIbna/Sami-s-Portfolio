@@ -1,0 +1,60 @@
+[
+  {
+    "id": "skillsync",
+    "title": "SkillSync",
+    "tagline": "AI-enabled micro-internship platform (ongoing)",
+    "description": "Designed internship listing and matching flows for students and SMEs, with backend logic in Flask and SQL-backed data handling.",
+    "highlights": [
+      "Designed and developed core listing and matching flows for students and SMEs.",
+      "Built backend logic using Python (Flask) with SQL-based data handling.",
+      "Implemented frontend interactions in JavaScript with focus on usability."
+    ],
+    "tech": ["Python", "Flask", "JavaScript", "SQL"],
+    "links": { "github": "", "live": "" },
+    "scene": { "position": [-1.6, 1.1, -2.8], "rotation": [0, 0.35, 0], "scale": 1.0 }
+  },
+  {
+    "id": "supetama",
+    "title": "Supetama (Client Project)",
+    "tagline": "Hospitality staffing platform with AI-assisted features",
+    "description": "Building a web application for a hospitality staffing business to manage staff hiring, matching, and communication, with AI-powered assistance.",
+    "bullets": [
+      "Developing a staffing platform to match workers with hospitality roles based on skills and availability.",
+      "Implementing AI-assisted matching to recommend suitable candidates for job roles.",
+      "Integrating a chatbot to assist users with navigation, queries, and platform usage.",
+      "Exploring facial recognition for identity verification and security (prototype stage).",
+      "Working directly with a client to gather requirements and iterate on features."
+    ],
+    "tech": ["JavaScript", "Web App", "AI (matching)", "Chatbot", "Facial Recognition (basic)"],
+    "links": { "github": "", "live": "" },
+    "scene": { "position": [0.0, 0.4, -1.6], "rotation": [0, 0, 0], "scale": 0.95 }
+  },
+  {
+    "id": "activecommunity",
+    "title": "Active-Community",
+    "tagline": "PHP web app for sessions + reviews",
+    "description": "Implemented authentication, profile management, session booking, reviews, and instructor approval flows in PHP.",
+    "highlights": [
+      "Developed authentication and profile management features.",
+      "Built session booking, reviews, and instructor approval workflow.",
+      "Improved app stability and UI clarity through iterative testing."
+    ],
+    "tech": ["PHP", "HTML", "CSS", "Sessions"],
+    "links": { "github": "", "live": "" },
+    "scene": { "position": [1.6, 1.1, -2.8], "rotation": [0, -0.35, 0], "scale": 1.0 }
+  },
+  {
+    "id": "quickstrip",
+    "title": "QuickStrip (Team 26)",
+    "tagline": "Client prototype + AI element support",
+    "description": "Delivered frontend features for a client prototype and supported AI element integration in a cross-disciplinary team.",
+    "highlights": [
+      "Built frontend interface components with HTML, CSS, and JavaScript.",
+      "Supported AI feature integration with cross-disciplinary teammates.",
+      "Contributed to Agile-style planning, testing, and iteration cycles."
+    ],
+    "tech": ["JavaScript", "HTML", "CSS", "Team delivery"],
+    "links": { "github": "", "live": "" },
+    "scene": { "position": [0.0, -0.2, -3.4], "rotation": [0, 0, 0], "scale": 0.82 }
+  }
+]
