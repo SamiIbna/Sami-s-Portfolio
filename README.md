@@ -1,35 +1,35 @@
 # Sami Ibna Zia Portfolio
 
-Recruiter-facing portfolio for Sami Ibna Zia, a First-Class BSc (Hons) Information Technology graduate from London South Bank University.
+Recruiter-facing portfolio for Sami Ibna Zia, a First-Class BSc (Hons) Information Technology graduate based in London, United Kingdom.
 
 Live site: https://samiibna.vercel.app
 
-This portfolio is positioned for junior project coordination, digital operations, implementation support, and IT project support roles. It highlights confirmed public projects and keeps the wording simple, accurate, and recruiter-friendly.
+This portfolio is positioned for junior project coordination, implementation support, digital operations, IT project support, and systems or administrative support roles. It uses practical technical projects as supporting evidence for digital systems, data handling, process improvement, and stakeholder support.
 
 ## Projects
 
 ### SkillSync
-Flask web app that connects university students with SMEs through short, skills-based micro-internships.
+Final-year academic Flask web app that connects university students with SMEs through short, skills-based micro-internships.
 
 - Repository: https://github.com/SamiIbna/SkillSync
 - Built with Python, Flask, SQLAlchemy, Jinja2, custom CSS, and JavaScript.
 - Includes registration/login, project browsing, student and SME dashboards, applications, notifications, certificates, and admin moderation.
 
 ### LSBU 360 Virtual Tour
-Browser-based 360 campus tour created for London South Bank University open-day visitors.
+Browser-based 360-degree campus tour prototype for LSBU open-day visitors.
 
 - Repository: https://github.com/SamiIbna/LSBU-360-Virtual-Tour
 - Built with A-Frame, HTML, CSS, and JavaScript.
 - Includes video and photo tour pages plus help and controls guidance.
 
-### Active-Community
+### Active Community
 PHP web application with authentication, profile management, session booking, reviews, and instructor approval flows.
 
 - Repository: https://github.com/SamiIbna/Active-Community
 - Built with PHP, HTML, and CSS.
 
-### Inventory-System
-Simple Python inventory system for managing products, tracking stock levels, and generating inventory reports.
+### Inventory System
+Academic Python inventory system for managing products, tracking stock levels, and generating inventory reports.
 
 - Repository: https://github.com/SamiIbna/Inventory-System
 - Built with Python.

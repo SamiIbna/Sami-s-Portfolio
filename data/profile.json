@@ -1,23 +1,27 @@
 {
   "name": "Sami Ibna Zia",
-  "location": "London, UK",
-  "headline": "Junior Project Coordinator | First-Class IT Graduate | Digital Operations, Implementation Support and IT Project Support",
+  "location": "London, United Kingdom",
+  "headline": "Junior Project Coordinator | IT Graduate | Digital Systems, Process Improvement, Data Handling and Stakeholder Support",
   "email": "sami.ibnaa@gmail.com",
   "links": {
     "github": "https://github.com/SamiIbna",
     "linkedin": "https://www.linkedin.com/in/sami-ibna-zia-9b18b22b9/"
   },
-  "intro": "First-Class BSc (Hons) Information Technology graduate with practical experience in web applications, data handling, university outreach, and stakeholder-facing support.",
-  "profileSummary": "First-Class BSc (Hons) Information Technology graduate from London South Bank University with practical experience across web applications, data handling, process support, and stakeholder-facing university work. Seeking junior project coordination, digital operations, implementation support, and IT project support roles.",
+  "intro": "First-Class BSc (Hons) Information Technology graduate based in London, with experience across digital systems, university administration, customer service, operational support, and practical web projects.",
+  "profileSummary": "First-Class BSc (Hons) Information Technology graduate based in London, with experience across digital systems, university administration, customer service, operational support, and practical web projects. Seeking junior project coordination, implementation support, digital operations, IT project support, and systems support roles.",
   "cta": {
     "primary": "Explore Projects",
     "secondary": "Download CV"
   },
   "targetRoles": [
     "Junior Project Coordinator",
-    "Digital Operations Assistant",
-    "Implementation Support Assistant",
-    "IT Project Support Assistant"
+    "Project Support Officer",
+    "PMO Assistant",
+    "Implementation Support",
+    "Digital Operations Coordinator",
+    "IT Project Support",
+    "Systems Support",
+    "University Operations"
   ],
   "stack": ["Python", "Flask", "JavaScript", "PHP", "SQL", "Drupal 10", "HTML/CSS", "Microsoft Office", "Git/GitHub"],
   "skills": {
@@ -33,7 +37,7 @@
   "experience": {
     "title": "Clearing Assistant",
     "org": "London South Bank University",
-    "dates": "Aug 2024 - Sep 2024",
+    "dates": "August 2024",
     "points": [
       "Supported prospective students with clearing and admissions queries in a fast-paced environment.",
       "Managed student data and administrative tasks using Microsoft Office."
@@ -49,9 +53,10 @@
     ]
   },
   "education": {
-    "degree": "First-Class BSc (Hons) Information Technology",
+    "degree": "BSc (Hons) Information Technology",
     "institution": "London South Bank University",
     "dates": "September 2023 - July 2026",
+    "grade": "First-Class Honours",
     "modules": [
       "Fundamentals of Computer Science",
       "Fundamentals of Software Development",

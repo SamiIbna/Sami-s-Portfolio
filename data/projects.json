@@ -2,8 +2,8 @@
   {
     "id": "skillsync",
     "title": "SkillSync",
-    "tagline": "Flask micro-internship platform",
-    "description": "Built a Flask web app that connects university students with SMEs through short, skills-based micro-internships.",
+    "tagline": "Final-year Flask micro-internship project",
+    "description": "Built an academic Flask web app that connects university students with SMEs through short, skills-based micro-internships.",
     "highlights": [
       "Implemented student and SME registration/login flows.",
       "Built project browsing, applications, notifications, certificates, and dashboard views.",
@@ -20,7 +20,7 @@
     "id": "lsbu360",
     "title": "LSBU 360 Virtual Tour",
     "tagline": "WebXR-ready campus tour",
-    "description": "Created a browser-based 360 campus tour for LSBU open-day visitors using video and photo tour pages.",
+    "description": "Created a browser-based 360-degree campus tour prototype for LSBU open-day visitors using video and photo tour pages.",
     "highlights": [
       "Built video and photo tour pages with A-Frame videosphere and photosphere scenes.",
       "Added a help and controls page for first-time users.",
@@ -35,7 +35,7 @@
   },
   {
     "id": "activecommunity",
-    "title": "Active-Community",
+    "title": "Active Community",
     "tagline": "PHP booking and review web app",
     "description": "Implemented a PHP web app with login, profile management, session booking, reviews, and instructor approval flows.",
     "highlights": [
@@ -52,9 +52,9 @@
   },
   {
     "id": "inventorysystem",
-    "title": "Inventory-System",
+    "title": "Inventory System",
     "tagline": "Python inventory assignment",
-    "description": "Built a simple Python inventory system for managing products, tracking stock levels, and generating inventory reports.",
+    "description": "Built an academic Python inventory system for managing products, tracking stock levels, and generating inventory reports.",
     "highlights": [
       "Managed product records in a small inventory workflow.",
       "Tracked stock levels for inventory items.",

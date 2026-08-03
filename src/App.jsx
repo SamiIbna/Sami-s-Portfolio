@@ -336,6 +336,7 @@ export default function App() {
                 {educationHeading}
               </h3>
               <p className="meta">{profile?.education?.dates}</p>
+              {profile?.education?.grade && <p className="meta">Grade: {profile.education.grade}</p>}
               <p className="meta">Modules: {modulePreview.join(", ")}</p>
             </div>
 
