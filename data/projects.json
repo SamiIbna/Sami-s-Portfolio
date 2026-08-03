@@ -2,59 +2,69 @@
   {
     "id": "skillsync",
     "title": "SkillSync",
-    "tagline": "AI-enabled micro-internship platform (ongoing)",
-    "description": "Designed internship listing and matching flows for students and SMEs, with backend logic in Flask and SQL-backed data handling.",
+    "tagline": "Flask micro-internship platform",
+    "description": "Built a Flask web app that connects university students with SMEs through short, skills-based micro-internships.",
     "highlights": [
-      "Designed and developed core listing and matching flows for students and SMEs.",
-      "Built backend logic using Python (Flask) with SQL-based data handling.",
-      "Implemented frontend interactions in JavaScript with focus on usability."
+      "Implemented student and SME registration/login flows.",
+      "Built project browsing, applications, notifications, certificates, and dashboard views.",
+      "Added admin moderation flows for users and projects."
     ],
-    "tech": ["Python", "Flask", "JavaScript", "SQL"],
-    "links": { "github": "", "live": "" },
+    "tech": ["Python", "Flask", "SQLAlchemy", "Jinja2", "JavaScript"],
+    "links": {
+      "github": "https://github.com/SamiIbna/SkillSync",
+      "live": ""
+    },
     "scene": { "position": [-1.6, 1.1, -2.8], "rotation": [0, 0.35, 0], "scale": 1.0 }
   },
   {
-    "id": "supetama",
-    "title": "Supetama (Client Project)",
-    "tagline": "Hospitality staffing platform with AI-assisted features",
-    "description": "Building a web application for a hospitality staffing business to manage staff hiring, matching, and communication, with AI-powered assistance.",
-    "bullets": [
-      "Developing a staffing platform to match workers with hospitality roles based on skills and availability.",
-      "Implementing AI-assisted matching to recommend suitable candidates for job roles.",
-      "Integrating a chatbot to assist users with navigation, queries, and platform usage.",
-      "Exploring facial recognition for identity verification and security (prototype stage).",
-      "Working directly with a client to gather requirements and iterate on features."
+    "id": "lsbu360",
+    "title": "LSBU 360 Virtual Tour",
+    "tagline": "WebXR-ready campus tour",
+    "description": "Created a browser-based 360 campus tour for LSBU open-day visitors using video and photo tour pages.",
+    "highlights": [
+      "Built video and photo tour pages with A-Frame videosphere and photosphere scenes.",
+      "Added a help and controls page for first-time users.",
+      "Structured tour stops for key LSBU campus locations."
     ],
-    "tech": ["JavaScript", "Web App", "AI (matching)", "Chatbot", "Facial Recognition (basic)"],
-    "links": { "github": "", "live": "" },
+    "tech": ["A-Frame", "WebXR", "HTML", "CSS", "JavaScript"],
+    "links": {
+      "github": "https://github.com/SamiIbna/LSBU-360-Virtual-Tour",
+      "live": ""
+    },
     "scene": { "position": [0.0, 0.4, -1.6], "rotation": [0, 0, 0], "scale": 0.95 }
   },
   {
     "id": "activecommunity",
     "title": "Active-Community",
-    "tagline": "PHP web app for sessions + reviews",
-    "description": "Implemented authentication, profile management, session booking, reviews, and instructor approval flows in PHP.",
+    "tagline": "PHP booking and review web app",
+    "description": "Implemented a PHP web app with login, profile management, session booking, reviews, and instructor approval flows.",
     "highlights": [
       "Developed authentication and profile management features.",
       "Built session booking, reviews, and instructor approval workflow.",
-      "Improved app stability and UI clarity through iterative testing."
+      "Improved app stability and interface clarity through iterative testing."
     ],
     "tech": ["PHP", "HTML", "CSS", "Sessions"],
-    "links": { "github": "", "live": "" },
+    "links": {
+      "github": "https://github.com/SamiIbna/Active-Community",
+      "live": ""
+    },
     "scene": { "position": [1.6, 1.1, -2.8], "rotation": [0, -0.35, 0], "scale": 1.0 }
   },
   {
-    "id": "quickstrip",
-    "title": "QuickStrip (Team 26)",
-    "tagline": "Client prototype + AI element support",
-    "description": "Delivered frontend features for a client prototype and supported AI element integration in a cross-disciplinary team.",
+    "id": "inventorysystem",
+    "title": "Inventory-System",
+    "tagline": "Python inventory assignment",
+    "description": "Built a simple Python inventory system for managing products, tracking stock levels, and generating inventory reports.",
     "highlights": [
-      "Built frontend interface components with HTML, CSS, and JavaScript.",
-      "Supported AI feature integration with cross-disciplinary teammates.",
-      "Contributed to Agile-style planning, testing, and iteration cycles."
+      "Managed product records in a small inventory workflow.",
+      "Tracked stock levels for inventory items.",
+      "Generated basic inventory reports."
     ],
-    "tech": ["JavaScript", "HTML", "CSS", "Team delivery"],
-    "links": { "github": "", "live": "" },
+    "tech": ["Python"],
+    "links": {
+      "github": "https://github.com/SamiIbna/Inventory-System",
+      "live": ""
+    },
     "scene": { "position": [0.0, -0.2, -3.4], "rotation": [0, 0, 0], "scale": 0.82 }
   }
 ]

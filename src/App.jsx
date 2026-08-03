@@ -6,10 +6,9 @@ import projects from "../data/projects.json";
 
 const panelColors = {
   skillsync: "#163b77",
-  supetama: "#0f766e",
+  lsbu360: "#0f766e",
   activecommunity: "#6b2f89",
-  bluewave: "#8a4f0a",
-  quickstrip: "#7c3aed",
+  inventorysystem: "#8a4f0a",
 };
 
 function CameraRig({ selectedProject }) {
@@ -81,6 +80,25 @@ function ProjectPanel({ project, selected, onSelect }) {
   );
 }
 
+function ProjectLinks({ links }) {
+  const projectLinks = [
+    { href: links?.github, label: "GitHub" },
+    { href: links?.live, label: "Live Demo" },
+  ].filter((link) => link.href);
+
+  if (!projectLinks.length) return null;
+
+  return (
+    <div className="project-links">
+      {projectLinks.map((link) => (
+        <a key={link.label} href={link.href} target="_blank" rel="noreferrer" className="project-link">
+          {link.label}
+        </a>
+      ))}
+    </div>
+  );
+}
+
 function Scene({ selectedId, onSelect }) {
   const selectedProject = projects.find((p) => p.id === selectedId) || null;
 
@@ -148,13 +166,12 @@ function supportsWebGL() {
 }
 
 export default function App() {
-  const [selectedId, setSelectedId] = useState("supetama");
+  const [selectedId, setSelectedId] = useState("skillsync");
   const selected = projects.find((project) => project.id === selectedId) || projects[0];
   const selectedProjectId = selected?.id;
   const visibleProjects = projects.filter((project) => project.id !== selectedProjectId);
   const experiencePoints = profile?.experience?.points || [];
   const volunteeringPoints = profile?.volunteering?.points || [];
-  const phoneHref = (profile?.phone || "").replace(/\s+/g, "");
   const modulePreview = profile?.education?.modules || [];
   const webglEnabled = useMemo(() => supportsWebGL(), []);
   const experienceHeading = [profile?.experience?.title, profile?.experience?.org].filter(Boolean).join(" - ");
@@ -235,32 +252,32 @@ export default function App() {
                   ))}
                 </ul>
               )}
+              <ProjectLinks links={selected?.links} />
             </div>
 
             <div className="projects-grid">
               {visibleProjects.map((project) => (
-                <button
+                <article
                   key={project.id}
-                  type="button"
                   className={`glass-card project-card ${selectedId === project.id ? "is-selected" : ""}`}
-                  onClick={() => setSelectedId(project.id)}
                 >
-                  <p className="eyebrow">{project.tagline}</p>
-                  <h3 className="project-title">{project.title}</h3>
-                  <p className="project-desc">{project.description}</p>
-                  <div className="chips">
-                    {project.tech.map((tech) => (
-                      <span key={`${project.id}-${tech}`}>{tech}</span>
-                    ))}
-                  </div>
-                  {(project.links?.github || project.links?.live) && (
-                    <p className="meta">
-                      {project.links?.github ? "GitHub available" : ""}
-                      {project.links?.github && project.links?.live ? " | " : ""}
-                      {project.links?.live ? "Live demo available" : ""}
-                    </p>
-                  )}
-                </button>
+                  <button
+                    type="button"
+                    className="project-card-button"
+                    onClick={() => setSelectedId(project.id)}
+                    aria-pressed={selectedId === project.id}
+                  >
+                    <p className="eyebrow">{project.tagline}</p>
+                    <h3 className="project-title">{project.title}</h3>
+                    <p className="project-desc">{project.description}</p>
+                    <div className="chips">
+                      {project.tech.map((tech) => (
+                        <span key={`${project.id}-${tech}`}>{tech}</span>
+                      ))}
+                    </div>
+                  </button>
+                  <ProjectLinks links={project.links} />
+                </article>
               ))}
             </div>
           </div>
@@ -351,13 +368,12 @@ export default function App() {
           <div className="content-wrap">
             <h2 className="section-title">Contact</h2>
             <div className="glass-card contact-card">
-              <a href={`tel:${phoneHref}`}>{profile.phone}</a>
               <a href={`mailto:${profile.email}`}>{profile.email}</a>
               <a href={profile.links.github} target="_blank" rel="noreferrer">
                 github.com/SamiIbna
               </a>
               <a href={profile.links.linkedin} target="_blank" rel="noreferrer">
-                linkedin.com/in/sami-zia-9b18b22b9/
+                linkedin.com/in/sami-ibna-zia-9b18b22b9/
               </a>
             </div>
           </div>
